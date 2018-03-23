@@ -1,0 +1,12 @@
+.header-wrapper {
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: #333;
+}
+.header-wrapper .logo {
+    height: 40px;
+    margin: 10px 0px;
+}

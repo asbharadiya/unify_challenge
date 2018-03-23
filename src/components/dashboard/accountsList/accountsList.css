@@ -1,0 +1,38 @@
+.accounts-list {
+    float: left;
+    width: 25%;
+    background: #d4d4d4;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+.accounts-list .vendors-list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.accounts-list .vendors-list .vendors-list_single {
+    border-bottom: 1px solid #333;
+    padding: 15px 30px 0px 30px;
+}
+.accounts-list .vendors-list .vendors-list_single .vendors-list_single__name {
+    font-size: 22px;
+    cursor: pointer;
+}
+.accounts-list .vendors-list .vendors-list_single .vendors-list_single__name span {
+    float: right;
+}
+.accounts-list .vendors-list .vendors-list_single .emails-list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.accounts-list .vendors-list .vendors-list_single .emails-list .emails-list_single {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 15px 0px;
+}
+.accounts-list .vendors-list .vendors-list_single .emails-list .emails-list_single:last-child {
+    border-bottom: 0px;
+}
+.accounts-list .vendors-list .vendors-list_single .emails-list .emails-list_single__name {
+
+}
